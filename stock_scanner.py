@@ -20,7 +20,7 @@ creds = ServiceAccountCredentials.from_json_keyfile_dict(creds_dict, scope)
 client = gspread.authorize(creds)
 
 # आपकी शीट की ID
-spreadsheet_id = "यहां अपनी शीट की आईडी कॉपी करके डालें"
+spreadsheet_id = "1UWZLerL2yg6TD5vbCL2Yzi5z9d9Xp0RAQYuANWR-44Q"
 
 # दोनों शीट्स को कनेक्ट करना
 try:
